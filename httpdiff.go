@@ -24,7 +24,7 @@ var notsame = false
 
 var transport = &http.Transport{}
 
-// ANSI escape functions and print helpers
+// on; ANSI escape functions and print helpers
 func on(i int, s string) string {
 	if mono {
 		return fmt.Sprintf("%d: %s", i+1, s)
